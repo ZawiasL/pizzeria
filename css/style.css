@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+#menu {
+    background-image: url(./img/tlo.jpg);
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 80vh;
+}
+#kontakt1 {
+    background-image: url(./img/tlo.jpg);
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 55vh; 
+}
+#carouselExampleCaptions {
+    min-height: 80vh;
+}
+#footer {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#glowna {
+    background-image: url(img/glowna.jpg);
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 90vh;
+    justify-content: center;
+}
+#title {
+    text-align: center;
+    font-style: italic;
+    margin: 55px 0px;
+    padding: auto;
+    color: honeydew;
+    background-color: #ff0000aa;
+}
+.ptitle {
+    text-align: center;
+    font-style: italic;
+    margin: 55px;
+    padding: auto;
+    color: honeydew;
+    background-color: #ff0000aa; 
+    font-size: x-large;
+    margin: 0px;
+}
+form {
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    padding: 15px;
+}
+#btn1 {
+    border-radius: 15px;
+    width: 40%;
+    background-color: #ff0000aa;
+    margin-top: 75px;
+}
+@media only screen and (max-width: 420px) {
+    body h1 {
+        font-size: 2em;
+    }
+
+    .map-container {
+        display: none;
+    }
+}
